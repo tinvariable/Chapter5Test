@@ -4,8 +4,8 @@ public class Test {
 
 	public static void main(String[] args) 
 	{
-		Number12 num = new Number12();
-		num.college();
+		Number7 num = new Number7();
+		System.out.println(num.isPalindrome("racecar"));
 		
 
 	}

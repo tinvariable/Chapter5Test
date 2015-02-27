@@ -11,7 +11,8 @@ public class Number10
 	
 	public double randomAverage()
 	{
-		int gen =generator.nextInt(100) +1;
+		
+		double gen = generator.nextInt(100) +1;
 		int count;
 		for (count = 1; count <= 100; count++)
 		{
